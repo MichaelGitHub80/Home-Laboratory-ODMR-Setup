@@ -327,4 +327,4 @@ This project is provided for educational and hobbyist purposes only "as is", wit
 
 ## Disclaimer
 
-This is a DIY hobbyist project. Code and English wording were assisted by AI tools and optimized for this hardware stack.
+Code and English wording were assisted by AI tools and optimized for this hardware stack.
