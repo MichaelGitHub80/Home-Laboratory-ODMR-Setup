@@ -243,7 +243,7 @@ The correlation between the selected camera pixel area and the measured quantum 
     </td>
     <td style="width:50.0%; text-align:center; border: none;">
       <img src="results/Figure_1.png" width="500"><br>
-      <em>Python-generated Matplotlib plot showing the continuous frequency sweep. The characteristic ODMR dip is clearly resolved with a contrast depth of approximately 2%.</em>
+      <em>Python-generated Matplotlib plot showing the continuous frequency sweep. The characteristic ODMR dip is clearly resolved with a contrast depth of approximately 0.2%.</em>
     </td>
   </tr>
 </table>
