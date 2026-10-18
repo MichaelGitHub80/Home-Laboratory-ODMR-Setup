@@ -250,9 +250,9 @@ The correlation between the selected camera pixel area and the measured quantum 
 
 ## Acknowledgements & Support
 
-This project was made possible through the support of inspiring academic research and generous material sponsorship from the quantum hardware industry:
+This project was made possible through the support of inspiring academic research and material supply from the quantum hardware industry:
 
-*   **Neocrystech (Shanghai, China):** A special thanks to the team at Neocrystech for providing the high-quality Ensemble NV Diamond (ENV-20) substrate for this independent research. Their commitment to supporting the quantum community enabled the successful execution of this room-temperature experiment.
+*   **Neocrystech (Shanghai, China):** A special thanks to the team at Neocrystech for providing the high-quality Ensemble NV Diamond (ENV-20) substrate for this independent research. Their commitment to supporting the quantum community enabled the successful execution of this room-temperature ODMR experiment.
 *   **FH Münster (University of Applied Sciences):** This setup is conceptually inspired by the pioneering open-source paper *"Modular low-cost 3D printed setup for experiments with NV centers in diamond"* by F. Hoffmann, M. Gregor, et al. Their work provided vital guidance and inspiration for designing budget-friendly quantum hardware.
 
 ### Component Sourcing & Fabrication Providers
