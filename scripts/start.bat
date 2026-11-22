@@ -1,0 +1,3 @@
+@echo off
+cd /d c:\...
+jupyter lab

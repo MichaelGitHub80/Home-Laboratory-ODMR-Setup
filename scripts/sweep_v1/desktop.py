@@ -16,6 +16,8 @@ from scipy.signal import savgol_filter
 
 USE_RASPBERRY = True
 
+target_dir = r""
+
 # --- 1. ZWO SDK DLL Pfad initialisieren ---
 DLL_DIR = r"\ZWO ASI 585 MC color"
 dll_path = os.path.join(DLL_DIR, "ASICamera2.dll")
@@ -230,7 +232,6 @@ except KeyboardInterrupt:
     print("\nMessung abgebrochen.")
 finally:
     if len(odmr_raw_records) > 0 and 'csv_full_path' not in locals():
-        target_dir = r"C:\Michael\Coding\python\ODMR\Sweep\run"
         if not os.path.exists(target_dir): os.makedirs(target_dir)
         filename = f"odmr_interrupted_sweep_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
         with open(os.path.join(target_dir, filename), mode='w', newline='') as f_csv:
