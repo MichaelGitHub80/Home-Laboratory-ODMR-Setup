@@ -9,7 +9,11 @@ This project implements Optically Detected Magnetic Resonance (ODMR) to observe 
 
 ## Key Takeaways
 
-* **Dichroic Mirror Limitation (~0.2% Contrast):** Initial measurements only reached a maximum ODMR contrast of ~0.2% because the dichroic mirror used transmitted 532 nm green light and reflected red fluorescence, delivering insufficient green excitation power to the NV diamond.
+## Key Takeaways
+
+- **Initial Micro-Stripline & Dichroic Mirror (~0.2% Contrast):** The baseline micro-stripline setup achieved a maximum ODMR contrast of ~0.2%, constrained by green-transmitting dichroic optics that limited the 532 nm excitation power delivered to the NV diamond.
+- **CPWG Loop & 50:50 Beam Splitter Enhancement (~1.55% Contrast):** Transitioning to a CPWG micro-loop paired with a 50:50 beam splitter, a 642–842 nm bandpass filter, differential HMC284 switching, and a >90% ROI mask increased the ODMR contrast to **1.5%**.
+- **RF Amplifier Input Protection:** A protective attenuator (e.g., 3 dB) is required upstream of the RF power amplifier to keep input levels safely below its **+2 dBm** maximum rating.
 * **50:50 Beam Splitter & Differential Masking (~1.0–1.55% Contrast):** Replacing the dichroic mirror with a 50:50 beam splitter significantly increased the green excitation intensity on the diamond, boosting the ODMR contrast above 1% (up to ~1.55% when combined with the CPWG micro-loop, HMC284 differential switching, and a >90% ROI pixel mask).
 * **RF Amplifier Input Protection:** Always place a sufficiently large attenuator (e.g., 3 dB) in front of the RF power amplifier to prevent permanent damage, as this broadband amplifier module is rated for a maximum input power of **+2 dBm**.
 
