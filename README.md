@@ -491,7 +491,7 @@ This project was made possible through the support of inspiring academic researc
 
 * **Neocrystech (Shanghai, China):** Thank you to the team at Neocrystech for supplying the Ensemble NV Diamond (ENV-20) sample used in this independent research project. Their commitment to supporting the quantum community enabled the successful execution of this room-temperature experiment.
 
-*   **FH Münster (University of Applied Sciences):** This setup is conceptually inspired by the pioneering open-source paper *"Modular low-cost 3D printed setup for experiments with NV centers in diamond"* by F. Hoffmann, M. Gregor, et al. Their work provided vital guidance and inspiration for designing budget-friendly quantum hardware.
+*   **FH Münster (University of Applied Sciences):** This setup is conceptually inspired by the pioneering open-source paper *"Modular low-cost 3D printed setup for experiments with NV centers in diamond"* by J. Stegemann, M. Gregor, et al. (Eur. J. Phys. 44, 035402, 2023). Their work provided vital guidance and inspiration for designing budget-friendly quantum hardware.
 
 ### Component Sourcing & Fabrication Providers
 To make this quantum experiment accessible for community replication, the setup follows a budget-friendly hybrid philosophy. Industry-standard precision optics and stable optomechanical foundations are combined with cost-effective hardware mounts where mechanical tolerances allow.
