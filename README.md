@@ -12,7 +12,6 @@ This project implements Optically Detected Magnetic Resonance (ODMR) to observe 
 - **Initial Micro-Stripline & Dichroic Mirror (~0.2% Contrast):** The baseline micro-stripline setup achieved a maximum ODMR contrast of ~0.2%, constrained by green-transmitting dichroic optics that limited the 532 nm excitation power delivered to the NV diamond.
 - **CPWG Loop & 50:50 Beam Splitter Enhancement (~1.55% Contrast):** Transitioning to a CPWG micro-loop paired with a 50:50 beam splitter, a 642–842 nm bandpass filter, differential HMC284 switching, and a >90% ROI mask increased the ODMR contrast to **1.5%**.
 - **RF Amplifier Input Protection:** A protective attenuator (e.g., 3 dB) is required upstream of the RF power amplifier to keep input levels safely below its **+2 dBm** maximum rating.
-* **RF Amplifier Input Protection:** Always place a sufficiently large attenuator (e.g., 3 dB) in front of the RF power amplifier to prevent permanent damage, as this broadband amplifier module is rated for a maximum input power of **+2 dBm**.
 
 ## Optical Path & Table Setup
 
